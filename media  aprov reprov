@@ -1,0 +1,25 @@
+double nota1, nota2;
+            double media;
+            
+
+            Console.WriteLine("digite sua primeira  nota do bimestre:");
+            nota1=double.Parse(Console.ReadLine());
+            
+            Console.WriteLine("digite a seguunda nota do bimestre:");
+            nota2=double.Parse(Console.ReadLine());
+
+
+            media=nota1+nota2;
+
+            if (media < 60.00)
+            {
+
+                Console.WriteLine(" aluno reprovado");
+            }
+            else
+            {
+                Console.WriteLine("Aluno aprovado ");
+            }
+
+                Console.ReadLine();
+            
